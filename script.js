@@ -564,12 +564,13 @@ function submitToGoogleForm(data) {
   // 5. خدي أرقام entry.111 وentry.222... وضعيها في entry IDs تحت (كل اسم حقل بإنتري بتاعه)
   // ===================================================================
 
-  const GOOGLE_FORM_ID = "PLACEHOLDER_FORM_ID"; // ضعي هنا الـ ID اللي بين /d/e/ و /viewform
+  const GOOGLE_FORM_ID = "1FAIpQLSdw4hEVs3d-hPskYoe2rfJCGJZcGc8exLlUgaxWpe-dRzmJAg" 
+  // ضعي هنا الـ ID اللي بين /d/e/ و /viewform
   const ENTRY_IDS = {
-    name: "entry.000000001",   // غيّريها برقم entry الفعلي لحقل الاسم
-    phone: "entry.000000002", // غيّريها برقم entry الفعلي لحقل الموبايل
-    topic: "entry.000000003", // غيّريها برقم entry الفعلي لحقل المجال
-    level: "entry.000000004", // غيّريها برقم entry الفعلي لحقل المستوى
+    name: "entry.1626822271",   // غيّريها برقم entry الفعلي لحقل الاسم
+    phone: "entry.38728362", // غيّريها برقم entry الفعلي لحقل الموبايل
+    topic: "entry.1421679217", // غيّريها برقم entry الفعلي لحقل المجال
+    level: "entry.1429286742", // غيّريها برقم entry الفعلي لحقل المستوى
   };
 
   // لو لسه الـ Form ID مش متغيّر (يعني لسه placeholder)، نتجاهل الإرسال بهدوء
@@ -658,3 +659,4 @@ function setupScrollAnimations() {
     observer.observe(el);
   });
 }
+
