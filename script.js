@@ -1,3 +1,4 @@
+
 /* =================================================================
    ⚙️  ضبط الإعدادات الأساسية — عدّلي القيم دي بسهولة من هنا
    ================================================================= */
@@ -563,8 +564,7 @@ function submitToGoogleForm(data) {
   // 4. خدي قيمة "e/XXXXXXX" وضعيها في GOOGLE_FORM_ID تحت
   // 5. خدي أرقام entry.111 وentry.222... وضعيها في entry IDs تحت (كل اسم حقل بإنتري بتاعه)
   // ===================================================================
-
-  const GOOGLE_FORM_ID = "1FAIpQLSdw4hEVs3d-hPskYoe2rfJCGJZcGc8exLlUgaxWpe-dRzmJAg" 
+  const GOOGLE_FORM_ID = "1FAIpQLSdyT9t7NtabWO7RK9UOszuzRfMnWWxeGg4FxWrmkFEQOXWE7w" 
   // ضعي هنا الـ ID اللي بين /d/e/ و /viewform
   const ENTRY_IDS = {
     name: "entry.1626822271",   // غيّريها برقم entry الفعلي لحقل الاسم
